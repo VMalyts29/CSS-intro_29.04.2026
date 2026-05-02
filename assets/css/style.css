@@ -1,18 +1,36 @@
+h1 {
+    color: blue;
+    font-family: initial;
+    border: inherit;
+}
+
+body {
+    font-family: sans-serif;   
+    /* initial - вимикає спадковість
+    inherit - вмикає спадковість*/
+    border: 5px red solid;
+    text-align: center;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* Зовнішні стилі */
 /* Селектор тегу (типу) - 0001 */
-h1{
-    color: blue;
-}
+/* h1{
+    color: blue; */
+
 
 /* Селектор класу - 0010*/
-.annotation {
-    font-size: 10px;
-}
+/* .annotation {
+    font-size: 10px; */
+
 
 /* Селектор ідентифікатора - 0100 */
-#subscribe-btn {
-    color: red;
-}
+/* #subscribe-btn {
+    color: red; */
+
 
 /* subscribe-btn: спосіб запису через дефіс називається -  kebab-case  
 subscribeBtn: camelCase
@@ -25,3 +43,4 @@ I_AM_CONSTANT*/
 
 /* Специфічність - якщо одна і та сама властивість записана в різних специфічності селекторах, то приорітетніша в селекторі з більшою специфічністю, якщо вага селектора однакова, то перемагає та, яка написана нижче
 Є калькулятор специфічності */
+
